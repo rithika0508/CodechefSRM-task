@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+body{
+    background-color: bisque;
+}
+li{ 
+    list-style: none;
+    float:right;
+    padding:3px;
+    margin:5px 54px 5px 2px;
+    border:solid 2px black;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+a{
+    text-decoration: none;
+    color:bisque;
+}
+ul{
+    border:solid 2px black;
+    height:50px;
+    background-color: black;
+    margin:5px;
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive
+}
+.box{
+    border:solid black 2px;
+    border-radius: 6px;
+    width:541px;
+    height:427px;
+    margin:50px 420px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.q_no{
+    font-size: 20px;
+}
+.ques_txt{
+    margin:10px;
+    font-size: 20px;
+}
+.choice1,.choice2,.choice3,.choice4{
+    border: solid black 1px;
+    border-radius: 3px;
+    margin:7px;
+    padding:10px 3px;
+    font-size:17px;
+}
+.nxt_btn{
+    background-color:#100c08;
+    color:white;
+    border:solid white 1px;
+    border-radius: 4px;
+    padding:10px 40px;
+    margin:5px 7px;
+}

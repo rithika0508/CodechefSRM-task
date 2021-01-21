@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+body{
+    background-color: bisque;
+}
+.todo{ 
+    list-style: none;
+    float:right;
+    padding:3px;
+    margin:5px 54px 5px 2px;
+    border:solid 2px black;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+a{
+    text-decoration: none;
+    color:bisque;
+}
+ul{
+    border:solid 2px black;
+    height:50px;
+    background-color: black;
+    margin:5px;
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container{
+    text-align: center;
+}
+ol{
+    display:inline-block;
+
+}
+#text{
+    width:40%;
+    height:30px;
+    margin:4px 10px;
+}
+#text:active{
+    background-color:bisque;
+}
+#btn{
+    padding:5px 30px;
+    background-color: #0066b2;
+    color:white;
+    border:solid #0066b2 2px;
+    border-radius:3px;
+}
+#btn:hover{
+    background-color: blue;
+
+}
+#btn:active{
+    background-color: black;
+    color:white;
+}
+/*.box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border:solid 2px black;
+    padding:5px 120px 5px 120px;
+}*/
+.container2{
+    text-align: center;
+}
+.status{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive
+}
+.list{
+    border:solid black 2px;
+    border-radius: 4px;
+    padding:5px 20px 5px 10px;
+    margin-right:50px;
+    background-color:white;
+    color:black;
+    text-align: center;
+    margin:2px;
+}
+.del{
+    padding:3px 5px;
+    margin:0px 10px 0px 80px;
+}
+.tick{
+    margin-left:20px;
+
+}
+
+
